@@ -25,6 +25,8 @@
                     @endforeach
                 </tbody>
             </table>
+            {{-- ページネーションのリンク --}}
+            {{ $tasks->links() }}
         @endif
         
         {{-- メッセージ作成ページへのリンク --}}
