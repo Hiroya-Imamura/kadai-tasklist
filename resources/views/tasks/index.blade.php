@@ -28,5 +28,7 @@
     
     {{-- メッセージ作成ページへのリンク --}}
     {!! link_to_route('tasks.create', '新規タスクの追加', [], ['class' => 'btn btn-primary']) !!}
+    {{-- ユーザ登録ページへのリンク --}}
+    {!! link_to_route('signup.get', '今すぐ登録！', [], ['class' => 'btn btn-lg btn-primary']) !!}
 
 @endsection
